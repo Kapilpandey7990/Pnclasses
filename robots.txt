@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pnclasses.in/sitemapindex.xml
+Sitemap: https://pnclasses.in/sitemap85.xml
+Sitemap: https://pnclasses.in/sitemap878.xml
+Sitemap: https://pnclasses.in/sitemap259.xml
+Sitemap: https://pnclasses.in/sitemap476.xml
+Sitemap: https://pnclasses.in/sitemap682.xml
+Sitemap: https://pnclasses.in/brand.php/sitemap271.xml
+Sitemap: https://pnclasses.in/search.php/sitemap496.xml
+Sitemap: https://pnclasses.in/dist/shop.php/sitemap840.xml
+Sitemap: https://pnclasses.in/assets/pages.php/sitemap397.xml

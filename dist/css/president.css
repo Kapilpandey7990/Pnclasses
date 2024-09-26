@@ -1,0 +1,89 @@
+
+.president-message {
+    /* background-color: #f0f8ff; Adjust the background color as needed */
+    /* padding: 60px 0; */
+}
+
+.president-message .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.president-message-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+.president-message-image {
+    flex: 1;
+    padding: 20px;
+}
+
+.president-message-text {
+    flex: 2;
+    padding: 20px;
+}
+
+.president-message .img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Adjust border radius as needed */
+}
+
+.president-message h3 {
+    font-size: 1.2rem;
+    color: #555; /* Adjust color as needed */
+    margin-bottom: 10px;
+}
+
+.president-message h2 {
+    font-size: 2rem;
+    color: #333; /* Adjust color as needed */
+    margin-bottom: 20px;
+}
+
+.president-message p {
+    font-size: 1rem;
+    color: #666; /* Adjust color as needed */
+    /* margin-bottom: 20px; */
+    line-height: 1.6;
+}
+
+.president-message .logos {
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 20px; /* Adjust the gap between logos */
+    /* margin-bottom: 20px; */
+    margin: 20px 0;
+
+}
+
+.president-message .logos img {
+    /* max-width: 100px; */ 
+    height:auto;
+    width: 120px;
+}
+
+.president-message .social-icons-pres {
+    display: flex;
+    gap: 20px; /* Adjust the gap between social icons */
+}
+
+.president-message .social-icons-pres img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Ensure responsiveness */
+@media (max-width: 768px) {
+    .president-message-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .president-message-text {
+        padding-top: 0;
+    }
+}
