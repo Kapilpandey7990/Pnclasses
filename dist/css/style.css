@@ -170,8 +170,8 @@ section {
 }
 
 .container {
-  margin: 0 auto;
-  max-width: min(100% - 1rem, var(--max-width));
+  margin: 0 20px;
+  /* max-width: min(100% - 1rem, var(--max-width)); */
 }
 
 .button {
@@ -229,6 +229,7 @@ section {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
   padding-block: 0.3125rem;
   z-index: 111;
+  
 }
 
 @media (min-width: 768px) {
