@@ -871,7 +871,7 @@ section {
 
 .registration {
 	background-color: var(--clr-blue-bg);
-	background-image: url(../../assets/img/form/form_bg.png);
+	background-image: url("../../assets/img/form/form_bg.png");
 }
 
 .form {

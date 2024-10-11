@@ -220,15 +220,15 @@
           <div class="holder">
             <h2 class="page__title">Alumni Registration</h2>
 
-            <form action="https://formspree.io/f/xnqeozvz" method="POST">
+            <form action="/submit-alumni" method="POST">
               <fieldset>
                 <h3>Personal Info</h3>
                 <div class="row">
                   <div class="column">
-                    <input type="text" name="First Name" placeholder="First Name" />
+                    <input type="text" name="firstName" placeholder="First Name" />
                   </div>
                   <div class="column">
-                    <input type="text" name="Last Name" placeholder="Last Name" />
+                    <input type="text" name="lastName" placeholder="Last Name" />
                   </div>
                 </div>
                 <div class="row">
@@ -236,7 +236,7 @@
                     <input type="tel" name="mobileNumber" placeholder="Mobile Number" />
                   </div>
                   <div class="column">
-                    <input type="email " name="email " placeholder="Email Address" />
+                    <input type="email " name="email" placeholder="Email Address" />
                   </div>
                 </div>
                 <h3>Association with PN</h3>
@@ -290,14 +290,14 @@
           <div class="holder">
             <h2 class="page__title">Give Us a Review</h2>
 
-            <form action="https://formspree.io/f/xnqeozvz" method="POST">
+            <form action="/submit-review" method="POST"  enctype="multipart/form-data">
               <fieldset>
                 <div class="row">
                   <div class="col_left">
                     <label for="name">Name</label>
                   </div>
                   <div class="col_right">
-                    <input type="text" name="Your name.." placeholder="Your name.." />
+                    <input type="text" name="name" placeholder="Your name.." />
                   </div>
                 </div>
                 <div class="row">
@@ -305,7 +305,7 @@
                     <label for="name">Class</label>
                   </div>
                   <div class="col_right">
-                    <input type="text" name="Class" placeholder="Class" />
+                    <input type="text" name="selectClass" placeholder="Class" />
                   </div>
                 </div>
                 <div class="row">
@@ -313,7 +313,7 @@
                     <label for="name">Contact</label>
                   </div>
                   <div class="col_right">
-                    <input type="text" name="Mobile number" placeholder="Mobile number" />
+                    <input type="text" name="contact" placeholder="Mobile number" />
                   </div>
                 </div>
                 <div class="row">
@@ -321,7 +321,7 @@
                     <label for="name">Year</label>
                   </div>
                   <div class="col_right">
-                    <input type="text" name="Year" placeholder="Year" />
+                    <input type="text" name="year" placeholder="Year" />
                   </div>
                 </div>
                 <div class="row">
@@ -329,7 +329,7 @@
                     <label for="name">Photo</label>
                   </div>
                   <div class="col_right">
-                    <input class="uploadfile" type="file" name="Photo" placeholder="Upload a Photo" />
+                    <input type="file" id="attachment" name="attachment" accept="image/png, image/jpeg" placeholder="Upload a Photo">
                   </div>
                 </div>
                 <div class="row">
@@ -337,12 +337,12 @@
                     <label for="name">Message</label>
                   </div>
                   <div class="col_right">
-                    <textarea name="Write something" placeholder="Write something.." style="height: 200px"></textarea>
+                    <textarea name="subject" placeholder="Write something.." style="height: 200px"></textarea>
                   </div>
                 </div>
                 <div class="row btn">
                   <div class="col_right">
-                    <button type="submit " class="submitBtn"><a href="mailto:admission@pnclasses.in">Submit</a></button>
+                    <button type="submit" class="submitBtn">Submit</button>
                   </div>
                 </div>
               </fieldset>
